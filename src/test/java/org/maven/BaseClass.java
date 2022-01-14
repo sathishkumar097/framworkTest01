@@ -1,9 +1,7 @@
 package org.maven;
 
-import java.awt.Desktop.Action;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -109,6 +107,11 @@ public class BaseClass {
 		}
 		return name;
 
+	}
+	
+	public void sathish() {
+
+		System.out.println("To check git pull ");
 	}
 
 }
